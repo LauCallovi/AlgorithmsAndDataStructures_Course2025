@@ -80,7 +80,7 @@ private:
      */
     void clearScreen();
 
-    PlayerInfo m_player; //< Información del jugador
+    PlayerInfo m_player; //< Information del jugador
 };
 
 #endif // ENGINE_HPP

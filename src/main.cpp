@@ -19,6 +19,8 @@ int main()
     player.level = level;
     player.name = playerName;
 
+   // std::cout << std::endl; //Salto de linea para liberar buffer (se repetia con el for sino). Si lo agrego no inicia player
+
     auto engine = std::make_unique<Engine>();
 
     std::cout << "Cargando: ";

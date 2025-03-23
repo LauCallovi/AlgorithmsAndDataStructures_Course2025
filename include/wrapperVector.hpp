@@ -29,7 +29,7 @@ private:
     {
         auto newCapacity = (m_capacity == 0) ? INIT_CAPACITY : m_capacity * 2;
 
-        TData* newData = new TData[m_capacity];
+        TData* newData = new TData[newCapacity]; //Cambio: se una newCapacity para la nueva data
 
         for (size_t i = 0; i < m_size; i++)
         {
